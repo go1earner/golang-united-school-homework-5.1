@@ -13,7 +13,7 @@ func (sqr Square) End() Point {
 	side := int(sqr.a)
 	return Point{
 		x: sqr.start.x + side,
-		y: sqr.start.y - side,
+		y: sqr.start.y + side,
 	}
 }
 
